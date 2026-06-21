@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Build artifacts
+/bin/
+/dist/
+dsa-tracker
+server
+
+# Go
+*.test
+*.out
+vendor/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+.codemap
+codemap.go
