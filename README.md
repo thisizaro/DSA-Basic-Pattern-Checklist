@@ -1,6 +1,6 @@
 # DSA Tracker
 
-A small multi-user web app that turns the [DSA Pattern Revision Sheet](#) into a
+A small multi-user web app that turns the [DSA Pattern Revision Sheet](#DSA_Pattern_Revision_Sheet.md) into a
 shared, college-tagged checklist: 15 topics, 67 patterns, each with a 4-step
 progress tracker (Understood → Explained → Solved blind → Re-solved after a gap).
 
