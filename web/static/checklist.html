@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA Tracker — Checklist</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header" id="site-header"></header>
+
+  <main class="shell">
+    <div class="summary-bar" id="summary-bar" style="display: none;">
+      <div class="summary-stat">
+        <span class="num" id="stat-patterns">0/0</span>
+        <span class="label">Patterns done</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill" style="width: 0%;"></div>
+      </div>
+      <div class="summary-stat">
+        <span class="num" id="stat-steps">0/0</span>
+        <span class="label">Steps checked</span>
+      </div>
+    </div>
+
+    <div class="filter-bar">
+      <div class="filter-dropdown">
+        <button type="button" class="filter-trigger" id="filter-trigger" aria-expanded="false">
+          <span id="filter-trigger-label">All topics</span>
+          <span class="chev">▾</span>
+        </button>
+        <div class="filter-panel" id="filter-panel">
+          <div class="filter-panel-actions">
+            <button type="button" id="filter-select-all">Select all</button>
+            <button type="button" id="filter-clear">Clear</button>
+          </div>
+          <div id="filter-options"></div>
+        </div>
+      </div>
+      <input type="text" class="search-input" id="search-input" placeholder="Search patterns or questions..." />
+    </div>
+
+    <div id="content">
+      <p class="state-message">Loading your checklist...</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    Internalize the pattern, not the question.
+  </footer>
+
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/nav.js"></script>
+  <script src="/static/js/checklist.js"></script>
+</body>
+</html>
